@@ -1,0 +1,177 @@
+/*01_3 일정표 모바일 시작*/
+#calendar {
+    width: 100%;
+    margin: 0 auto
+}
+
+#calendar a {
+    color: #152032;
+    text-decoration: none;
+}
+
+#calendar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#calendar li {
+    display: block;
+    float: left;
+    width:14.342%;
+    padding: 2px 5px;
+    box-sizing:border-box;
+    border: 1px solid #ccc;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+
+#calendar ul.weekdays {
+    height: 40px;
+    background: #eee;
+    
+}
+
+#calendar ul.weekdays li {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 6px;
+    color: #152032;
+    font-size: 15px;
+    
+}
+
+#calendar .days li {
+    height: 210px;
+}
+/* 월화수목금색상지정*/
+#calendar .monday li{
+    background-color: #FFE9EB;
+}
+#calendar .monday li.other-month{
+    background-color: #FFD2D2;
+}
+
+#calendar .tuesday li{
+    background-color: #FFEBD2;
+}
+#calendar .tuesday li.other-month{
+    background-color: #FEDDB2;
+}
+#calendar .wednesday li{
+    background-color: #EDFFB3;
+}
+#calendar .wednesday li.other-month{
+    background-color: #DBFF83;
+}
+#calendar .thursday li{
+    background-color: #DCFFED;
+}
+#calendar .thursday li.other-month{
+    background-color: #B6FFD9;
+}
+#calendar .friday li{
+    background-color: #CCE1FF;
+}
+#calendar .friday li.other-month{
+    background-color: #9FC6FF;
+}
+
+#calendar .days li.day00{
+    
+}
+#calendar .days li:hover {
+    background: #d3d3d3;
+}
+
+#calendar .date {
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 2px;
+    color: #152032;
+    font-size: 15px;
+}
+
+#calendar .event {
+    clear: both;
+    display: block;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    line-height: 13px;
+/*
+    background-color: antiquewhite;
+*/
+/*
+    border: 1px solid #eee;
+*/
+    color: #009aaf;
+    text-decoration: none;
+}
+
+#calendar .event-desc {
+    color: #666;
+    margin: 3px 0 7px 0;
+    text-decoration: none;  
+}
+
+#calendar .other-month {
+    background: #eee;
+    color: #666;
+    
+}
+.subday{
+    font-size: 14px;
+}
+/* 모바일 반응형*/
+@media(max-width: 768px) {
+    #calendar .weekdays/*, #calendar .other-month*/ {
+     display: none;
+    }
+
+    #calendar li {
+        height: auto !important;
+        border: 1px solid #ededed;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: -1px;
+    }
+
+    #calendar .date {
+        float: none;
+        text-align: left;
+    }
+    
+    #calendar .date span{
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 20%;
+    background-color: #b99b64;
+}
+    
+    #calendar .date>p{
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 20%;
+    color: #152032;    
+    display: inline-block;
+}
+
+} /*미디어쿼리 닫힘*/
+
+
+
+
+/* pc용 */
+@media all and (min-width:1132px){
+    
+   .subday{
+        display: none;
+    }
+	
+	

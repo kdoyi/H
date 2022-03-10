@@ -1,0 +1,1102 @@
+@CHARSET "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+/* Reset CSS
+ * --------------------------------------- */
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+a{
+	text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong{
+	font-weight: bold;
+}
+
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+caption,th {
+    text-align: left;
+}
+
+q:before,q:after {
+    content:'';
+}
+
+abbr,acronym { 
+    border: 0;
+}
+
+
+/* Custom CSS : 기본
+ * --------------------------------------- */
+
+*:focus { outline:none; }
+@font-face {
+  font-family: 'RixJGoB';
+  src: url('../FONTS/RixJGoB/RixJGoB.svg#RixJGoB') format('svg'),
+       url('../FONTS/RixJGoB/RixJGoB.ttf') format('truetype'),
+       url('../FONTS/RixJGoB/RixJGoB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RixJGoM';
+  src: url('../FONTS/RixJGoM/RixJGoM.svg#RixJGoM') format('svg'),
+       url('../FONTS/RixJGoMRixJGoM.ttf') format('truetype'),
+       url('../FONTS/RixJGoMRixJGoM.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RixJGoL';
+  src: url('../FONTS/RixJGoL/RixJGoL.svg#RixJGoL') format('svg'),
+       url('../FONTS/RixJGoL/RixJGoL.ttf') format('truetype'),
+       url('../FONTS/RixJGoL/RixJGoL.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KoreanMMR4-R';
+  src: url('../FONTS/MMMR4/KoreanMMR4-R.svg#KoreanMMR4-R') format('svg'),
+       url('../FONTS/MMMR4/KoreanMMR4-R.ttf') format('truetype'),
+       url('../FONTS/MMMR4/KoreanMMR4-R.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KoreanMMR2-R';
+  src: url('../FONTS/MMMR2/KoreanMMR2-R.svg#KoreanMMR2-R') format('svg'),
+       url('../FONTS/MMMR2/KoreanMMR2-R.ttf') format('truetype'),
+       url('../FONTS/MMMR2/KoreanMMR2-R.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KoreanMMR1-R';
+  src: url('../FONTS/MMMR1/KoreanMMR1-R.svg#KoreanMMR1-R') format('svg'),
+       url('../FONTS/MMMR1/KoreanMMR1-R.ttf') format('truetype'),
+       url('../FONTS/MMMR1/KoreanMMR1-R.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrap{
+	width: 1400px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+img {
+    vertical-align: top;
+    border: none;
+}
+
+#quick {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.quick li a {
+    width: 70px;
+    height: 60px;
+    position: relative;
+  /*  border: 2px solid #666;
+    border-bottom: none;*/
+    color: #fff;
+}
+
+.quick li a img {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding-right: 10px;
+}
+#all {
+/*
+    background-color: #999;
+*/
+    text-align: center;
+    line-height: 60px;
+    width: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10%;
+    border: 2px solid #b99b64;
+    margin-right: 0;
+    color: #b99b64;
+}
+
+#all:hover {
+    background-color: #555;
+}
+
+
+#top {
+   text-align: center;
+    line-height: 40px;
+    width: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10%;
+    border: 2px solid #b99b64;
+    margin-right: 0;
+    color: #b99b64;
+}
+
+#top:hover{
+    background-color: #777;
+}
+
+h1{
+    color: #152032;
+    font-size: 35px;
+    padding: 20px 0 0 0;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 15px 30px 0 0;
+    letter-spacing: -1px;
+}
+
+h1 sup{
+    font-weight: normal;
+    font-size: 30px;
+    color: #b99b64;
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+
+h1 span{
+    color: #152032;
+    font-size: 55px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid #152032;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 28px;
+    text-align: left;
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+h4{
+    font-size: 40px;
+}
+
+
+.section{
+    height: 1080px;
+}
+
+/* section0
+ * --------------------------------------- */
+#section0{
+    height: 1080px;
+    background-color: #152032;
+    position: relative;
+}
+
+#section0 button{
+    background-color: #152032;
+    border: none;
+}
+
+#introduce{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Jeju Gothic', sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    height: 110px;
+    text-shadow: 1px 2px 1px #555;
+}
+
+.main{
+    width: 28%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 60px;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+
+.main:hover{
+    border: 2px double #b99b64;
+}
+
+.main img{
+    width: 100%;
+}
+
+.section .main_title{
+    padding: 10px 0 20px 0;
+    height: 150px;  
+}
+
+#section0 .team{
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+
+#section0 .team li{
+    width: 20%;
+    margin-left: 8.3%;
+    float: left;
+	color: aliceblue;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+#section0 .team img{
+    width: 100%;
+	border-radius: 50%;
+	border: 3px solid #888;
+}
+
+
+
+/*section1*/
+ * --------------------------------------- */
+#section1{
+    width: 100%;
+    height: 1080px;
+}
+
+.topic_purpose{
+    width: 100%;
+    height: 430px;
+}
+
+.topic_purpose h2{
+    font-weight: normal;
+}
+
+#section1 .topic{
+    width: 100%;
+    height: 330px;
+}
+
+.topic li{
+    float: left;
+    position: relative;
+    bottom: 0;
+    width: 30%;
+    margin-left: 3%;
+    text-align: center;
+}
+
+#section1 .topic img{
+    width: 50%;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.topic li:hover img{
+    transform: scale(1.05);
+}
+
+
+
+.topic li h3{
+    margin: 10px 0 10px 0;
+    width: 100%;
+    padding: 0 30px;
+    color: #555;
+    font-size: 19px;
+}
+
+
+
+/*목적*/
+#section1 .purpose{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.purpose li{
+    float: left;
+    position: relative;
+    bottom: 0;
+    width: 33.3%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#section1 .purpose img{
+    width: 80%;
+    padding: 0 0 0 80px;
+    transition: all 0.3s ease;
+}
+
+.purpose li:hover img{
+    transform: scale(1.05);
+}
+
+.purpose li h3{
+    margin: 10px 0 10px 0;
+    width: 100%;
+    font-size: 19px;
+    padding: 0 50px;
+    color: #555;
+    text-align: left;
+}
+
+.purpose li:hover img{
+    transform: scale(1.05);
+}
+
+
+.purposeh1, .topich1{
+    clear: both;
+    color: goldenrod;
+    font-size: 25px;
+    padding: 20px 0 0 0;
+ }
+
+.purposeh1 span, .topich1 span{
+    font-size: 50px;
+    padding-left: 80px;
+}
+
+
+.middle_title{
+    color: #fff;
+    background-color: #152032;
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section2
+ * --------------------------------------- */
+#section2{
+    width: 100%;
+    height: 1080px;
+}
+
+#section2 .wrap{
+    width: 1600px;
+    height: 62%;
+}
+
+
+.widelogo{
+    height: 200px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    background-image:
+    linear-gradient(90deg, #cdcccc 0px, #cdcccc 1px, transparent 1px, transparent 99px,  transparent 100px),
+    linear-gradient(#cdcccc 0px, #cdcccc 1px, transparent 1px, transparent 99px,  transparent 100px),
+    linear-gradient(#e0e0e0 0px, #e0e0e0 1px, transparent 1px, transparent 99px,  transparent 100px),
+    linear-gradient(90deg, #e0e0e0 0px, #e0e0e0 1px, transparent 1px, transparent 99px,  transparent 100px),
+    linear-gradient(transparent 0px, transparent 5px, #f6f6f6 5px, #f6f6f6 95px, transparent 95px, transparent 100px),
+    linear-gradient(90deg, #e0e0e0 0px, #e0e0e0 1px, transparent 1px, transparent 99px, #e0e0e0 99px, #e0e0e0 100px),
+    linear-gradient(90deg, transparent 0px, transparent 5px, #f6f6f6 5px, #f6f6f6 95px, transparent 95px, transparent 100px),
+    linear-gradient(transparent 0px, transparent 1px, #f6f6f6 1px, #f6f6f6 99px, transparent 99px, transparent 100px),
+    linear-gradient(#cdcccc, #cdcccc);
+    background-size:100px 100%, 100% 100px, 100% 10px, 10px 100%, 100% 100px, 100px 100%, 100px 100%, 100px 100px, 100px 100px;
+    border: 1px solid #152034;
+    padding: 3%;
+}
+.widelogo img{
+        float: left;
+    }
+    
+    .logoimg1{
+        width: 50%;
+        border-bottom: none;
+        margin-right: 6%;
+        margin-bottom: 0;
+        padding-top: 20px;
+    }
+    
+    .logoimg2{
+        width: 35%;
+        padding-left: 10%;
+        border-left: 1.5px solid #777;
+    }
+.cacacoco{
+    width: 43%;
+    margin: 0 auto;
+}
+
+.cacacoco h1, .cacacoco span{
+    font-family: 'Jeju Gothic', sans-serif;
+    float: left;
+}
+
+
+.cfixed{
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+    color: goldenrod;
+    margin-bottom: 80px;
+    font-size: 50px;
+    padding: 50px 0;
+}
+
+.cfixed:hover{
+    color: gold;
+}
+span.ca{
+    font-weight: bold;
+}
+span.ca:hover{
+    color: gold;
+}
+
+.color{
+    height: 300px;
+    width: 60%;
+    margin: 0 auto;
+}
+.color li{
+    float: left;
+    width: 30%;
+    margin-left: 2.6%;
+    height:120px;
+    line-height: 120px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+.color li:hover{
+    color: gold;
+}
+.color1{
+    background-color: #b99b64;
+}
+.color2{
+    background-color: #152032;
+}
+.color3{
+    background-color: #744c28;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section3_제작물리스트(포스터 및 배너)
+ * --------------------------------
+------- */
+#section3{
+    height: 1080px;
+}
+
+#section3 .bg_list{
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#section3 .bg_list li{
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin: 18px;
+    text-align: center;
+    line-height: 70px;
+    color: #152032;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid #152032;
+    background-color: #eee;
+}
+
+#section3 .bg_list li a{
+    display: block;
+    height: 300px;
+}
+
+
+
+/*포스터*/
+#section3 .bg_poster{
+    background-image: url(../IMG/icon_color-poster02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    transition: .3s;
+}
+
+#section3 .bg_poster:hover{
+    background-image: url(../IMG/icon_black-poster02.png);
+    background-size: 53%;
+    color: #b99b64;
+}
+
+
+/*배너*/
+#section3 .bg_banner{
+    background-image: url(../IMG/icon_color-banner01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    transition: .3s;
+}
+
+#section3 .bg_banner:hover{
+    background-image: url(../IMG/icon_black-banner01.png);
+    background-size: 53%;
+    color: #b99b64;
+}
+
+
+/*리플렛*/
+#section3 .bg_leaflet{
+    background-image: url(../IMG/icon_color-leaflet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    transition: .3s;
+}
+
+#section3 .bg_leaflet:hover{
+    background-image: url(../IMG/icon_black-leaflet.png);
+    background-size: 53%;
+    color: #b99b64;
+}
+
+
+
+/*티켓*/
+#section3 .bg_ticket{
+    background-image: url(../IMG/icon_color-ticket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    transition: .3s;
+}
+
+#section3 .bg_ticket:hover{
+    background-image: url(../IMG/icon_black-ticket.png);
+    background-size: 53%;
+    color: #b99b64;
+}
+
+
+
+
+/*손목밴드*/
+#section3 .bg_goods{
+    background-image: url(../IMG/icon_color-goods.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    transition: .3s;
+}
+
+#section3 .bg_goods:hover{
+    background-image: url(../IMG/icon_black-goods.png);
+    background-size: 53%;
+    color: #b99b64;
+}
+
+
+
+/*웹사이트*/
+#section3 .bg_website{
+    background-image: url(../IMG/icon_color-website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    transition: .3s;
+}
+
+
+#section3 .bg_website:hover{
+    background-image: url(../IMG/icon_black-website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 53%;
+    color: #b99b64;
+}
+
+
+
+
+
+/* section4_제작물 _포스터 및 배너
+ * --------------------------------------- */
+
+#section4{
+    height: 1080px;
+}
+
+#section4 h1{
+    background-image: url(../IMG/icon_color-poster02.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: left;
+    padding-left: 110px;
+}
+
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 700px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align: bottom;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+.poster_banner{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.poster{
+    width: 60%;
+    float: left;
+    display: inline-block;
+}
+
+.banner{
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+
+
+
+
+
+
+/* section5_제작물 _리플렛 및 스템프렐리
+ * --------------------------------------- */
+#section5{
+    height: 1080px;
+}
+
+#section5 h1{
+    background-image: url(../IMG/icon_color-leaflet.png);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: left top;
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 700px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+.leaflet_stamp{
+    width: 100%;
+    height: 700px;
+    margin-top: 80px;
+}
+.leaflet{
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+
+.stamp{
+    width: 40%;
+    float: right;
+    display: inline-block;
+}
+
+
+
+/* section6_(제작 아이템3_손목밴드, 티켓, 목걸이 명찰)
+ * --------------------------------------- */
+#section6{
+    height: 1080px;
+}
+
+#section6 h1{
+    background-image: url(../IMG/icon_color-ticket.png);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: left top;
+    padding-left: 130px;
+    padding-bottom: 20px;
+}
+
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 800px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+.ticket_band_strap{
+    width: 100%;
+    height: 700px;
+    margin-top: 80px;
+}
+
+.ticket_band{
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+
+.ticket{
+    width: 50%;
+    height: 300px;
+}
+
+.band{
+    width: 50%;
+    height: 300px;
+}
+
+.strap{
+    width: 40%;
+    float: left;
+}
+
+
+
+
+
+/* section7_제작물 _웹사이트
+ * --------------------------------------- */
+
+#section7{
+    height: 1080px;
+}
+
+#section7 h1{
+    background-image: url(../IMG/icon_color-website.png);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: left top;
+    padding-left: 130px;
+    padding-bottom: 20px;
+}
+
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 650px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 60px;
+  height: 60px;
+  background-color: gold;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+.website_pc_website_m{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+}
+.website_pc{
+    width: 70%;
+    float: left;
+    display: inline-block;
+}
+
+.website_m{
+    width: 30%;
+    float: right;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+/* section8_목업 및 굿즈
+ * --------------------------------------- */
+
+#section8{
+    height: 1080px;
+}
+
+#section8 h1{
+    background-image: url(../IMG/icon_color-goods.png);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: left top;
+    padding-left: 130px;
+    padding-bottom: 20px;
+}
+
+* {box-sizing: border-box;}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #fff;
+  padding: 10px;
+    border: 1px solid #999;
+}
+
+.column h3{
+    padding: 6px 10px;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*좌측상단 고정 큐알코드*/
+.qrcode{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.qrcode img{
+    width: 90%;
+
+}
+
+

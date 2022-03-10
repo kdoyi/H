@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    vertical-align: top;
+    border: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background: #161b21;
+    color: #fff;
+}
+
+#wrap{
+    width: 1500px;
+    margin: 100px auto;
+}
+
+#slide{
+    width: 1080px;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+#slide>ul{
+    width: 1080px;
+    height: 700px;
+}
+
+#slide>ul>li{
+    display: none;
+}
+
+#slide>ul>li>img{
+    width: 100%;
+}
+
+.title{
+    font-family: 'Girassol', cursive;
+    width: 400px;
+    height: 100px;
+    line-height: 1;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    font-size: 70px;
+    margin: 30px 0 0 20px;
+    border-bottom: 3px double #c2a17e;
+}
+
+.text{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin: 100px 0 0 20px;
+    text-align: center;
+    font-family: 'MSugiJeong';
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text span{
+    font-size: 50px;
+    color: #ffcccc;
+    font-weight: bold;
+}
+
+.qlink{
+    float: left;
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+    margin-left: 130px;
+    margin-top: 180px;
+    text-align: center;
+    font-family: 'RixGo M';
+    line-height: 2.5;
+    border: 3px groove #c2a17e;
+    box-sizing: border-box;
+}

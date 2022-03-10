@@ -1,0 +1,437 @@
+/*sum03_4 제휴프로모션 mobile*/
+*{
+    background-repeat: no-repeat;
+}
+.promotion_list{
+    width: 100%;
+    margin-top: 20px
+}
+
+.main_promotion{
+border: 2px solid #b99b64;
+width: 100%;
+height: 450px;
+border-radius: 20px; 
+background-image: url(../images/sub03_4/mobile02.png);
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: 200px;
+position: relative;
+}
+
+.main_promotion h1{
+    color: #b99b64;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    padding: 30px 0;
+        
+}
+
+.main_promotion li a{
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.starfield{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    width: 100px;
+    height: 7px;
+    padding: 5%;
+    background-image: url(../images/sub03_4/logo_starfield.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.cj{
+    position: absolute;
+    left: 22%;
+    top: 40%;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    background-image: url(../images/sub03_4/logo_cjone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        
+}
+
+.kookmin{
+    position: absolute;
+    right: 5%;
+    top: 55%;
+    width: 120px;
+    height: 50px;
+    background-image: url(../images/sub03_4/logo_kookmin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        
+}
+
+.lotte{
+    position: absolute;
+    left: 15%;
+    bottom: 28%;
+    width: 80px;
+    height: 50px;
+    background-image: url(../images/sub03_4/logo_lotte.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hpoint{
+    position: absolute;
+    left: 29%;
+    bottom: 15%;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/sub03_4/logo_hpoint.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #222;
+    border-radius: 20%;
+}
+
+.main_promotion img{
+    position: absolute;
+    bottom: 0;
+    right: 18%;
+}
+
+
+.sub_promotion{
+    display: none;
+}
+
+
+.subpromo01, .subpromo02, .subpromo03, .subpromo04{
+    width: 47%;
+    float: left;
+    height: 270px;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid #b99b64;
+    border-radius: 20px;
+}
+
+.subpromo01 img, .subpromo02 img{
+    display: none;
+}
+
+.subpromo ul li h3{
+    font-size: 17px;
+    text-align: left;
+    padding: 15px;
+    color:  #152032;
+    line-height: 23px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  /*서브 프로모션*/
+.sub_promotion{
+margin-top: 10px;    
+width: 100%;
+height: 450px;
+border-radius: 20px;    
+padding: 10px;    
+}
+
+
+.subpromo01, .subpromo02, .subpromo03, .subpromo04{
+    width: 47%;
+    float: left;
+    height: 270px;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid #b99b64;
+    border-radius: 20px;
+}
+
+.subpromo01, .subpromo03{
+    margin-right: 10px;
+}
+
+.subpromo01, .subpromo02{
+    margin-bottom: 10px;
+}
+    
+    
+    
+}
+
+
+
+
+
+/* pc용 */
+@media all and (min-width:1132px){
+    
+.sub_promotion{
+    display: inline-block;
+}
+
+
+.promotion_list{
+    width: 100%;
+    margin-top: 20px
+    height: 600px;
+}
+
+.main_promotion{
+border: 4px solid #b99b64;
+background-image: url(../images/sub03_4/mobile02.png);
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: 280px;
+position: relative;
+}
+
+.main_promotion h1{
+    color: #b99b64;
+    width: 100%;
+    height: 50px;
+    padding:40px 0;
+        
+}
+
+.starfield{
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    background-image: url(../images/sub03_4/logo_starfield.png);
+    background-repeat: no-repeat;
+}
+
+.cj{
+    position: absolute;
+    left: 26%;
+    top: 40%;
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    background-image: url(../images/sub03_4/logo_cjone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kookmin{
+    position: absolute;
+    right: 8%;
+    top: 55%;
+    width: 150px;
+    height: 70px;
+    background-image: url(../images/sub03_4/logo_kookmin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.lotte{
+    position: absolute;
+    left: 15%;
+    bottom: 25%;
+    width: 120px;
+    height: 80px;
+    background-image: url(../images/sub03_4/logo_lotte.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hpoint{
+    position: absolute;
+    left: 29%;
+    bottom: 10%;
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/sub03_4/logo_hpoint.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #222;
+}
+
+.main_promotion img{
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+}
+    
+.promotion_list .main_promotion{
+    float: left;
+    width: 45%;
+    height: 600px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.promotion_list .sub_promotion{
+    float: left;
+    width: 54%;
+    height: 600px;
+}
+    
+
+.subpromo01, .subpromo02, .subpromo03, .subpromo04{
+    width: 44%;
+    height: 293px;
+    float: left;
+    padding: 15px;
+    margin: 5px;
+    margin-top: 0;
+    border: 4px solid #b99b64;
+    border-radius: 20px;
+    position: relative;
+}
+    
+.subpromo01, .subpromo03{
+    margin-right: 10px;
+}
+
+.subpromo01, .subpromo02{
+    margin-bottom: 10px;
+}
+    
+    .subpromo li{
+        text-align: left; 
+        margin: 10px 0;
+        text-align: left;
+    }
+    .subpromo li h5{
+        width: 100%;
+        text-align: left;
+    }    
+    
+     .subpromo01 li h5 span{
+         background-color: crimson;
+         color: #fff;
+         border-radius: 0;
+         position: absolute;
+         left: 36%;
+         border-radius: 5px;
+         
+    }    
+    
+    .subpromo li span{
+        display: inline-block;
+        padding: 1px 10px;
+        border-radius: 15px;
+        color: #b99b64;
+        background-color: #152032;
+        position: absolute;
+        left: 0;
+        margin: 0 5px 0 15px;
+        font-size: 11px;
+    }
+    
+   
+    
+    .subpromo01{
+        position: relative;
+        z-index: 100;
+    }
+    
+    
+    .subpromo01 h3{
+        position: relative;
+        z-index: 100;
+    }
+    
+    .subpromo li p{
+        text-align: left;
+        padding-left: 40px;
+        font-size: 13px;
+    }
+
+    .subpromo01 img, .subpromo02 img{
+        display: block;
+    }
+    
+/*cj프로모션 모바일 목업 시작*/    
+    .subpromo01 li img{
+        width: 35%;
+        position: absolute;
+        bottom: 0;
+        right: -20px;
+        transform: rotate(5deg);
+    }
+/*cj프로모션 모바일 목업 끝*/    
+    
+    
+/*h-point프로모션*/    
+    .subpromo02 li img{
+        width: 35%;
+        position: absolute;
+        bottom: 0;
+        right: -20px;
+        transform: rotate(5deg);
+    }
+    
+    .subpromo02 li h5 span{
+         background-color: #fff;
+         color: #000;
+        border: 2px solid #000;
+         border-radius: 0;
+         position: absolute;
+         left: 36%;
+         border-radius: 3px;
+         
+    }    
+    
+    /*국민카드 프로모션*/
+     .subpromo03{
+         background-image: url(../images/sub03_4/kb_promotion.png);
+         background-repeat: no-repeat;
+         background-position: 110px  100px;
+    }
+     .subpromo03 li h5 span{
+         background-color: gold;
+         color: #fff;
+         border-radius: 0;
+         position: absolute;
+         left: 36%;
+         border-radius: 3px;
+         font-weight: normal;
+         text-shadow: 0 1px 1px #bbb;
+         
+    }    
+    
+         /*스타필드 프로모션*/
+    
+      .subpromo04{
+         background-image: url(../images/sub03_4/starfiedl_promotion.png);
+         background-repeat: no-repeat;
+         background-position: bottom right;
+    }
+    
+     .subpromo04 li h5 span{
+         background-color: crimson;
+         color: #fff;
+         border-radius: 0;
+         position: absolute;
+         left: 36%;
+         border-radius: 3px;
+         font-weight: normal;
+         text-shadow: 0 1px 1px #bbb;
+         
+    }    
+    
+    sub{
+        font-weight: normal;
+        font-size: 12px;
+    }
+    
+    
+}

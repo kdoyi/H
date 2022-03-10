@@ -1,0 +1,111 @@
+/*기대효과*/
+.expectation_effectiveness{
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 50px;
+	
+}
+.expectation_effectiveness li{
+	margin-bottom: 50px;
+}
+.expectation_effectiveness li img{
+	width: 100%;
+	z-index: -999999;
+}
+
+.expectation_effectiveness li h3{
+	margin-top: 20px;
+	text-align: left;
+}
+.expectation_effectiveness li h3 span{
+	color: #999;
+	font-size: 15px;
+	font-weight: normal;
+}
+.expectation_effectiveness li p{
+	margin-top: 20px;
+	color: #555;
+	font-size: 13px;
+	text-align: left;
+}
+
+.classification h2{
+	clear: both;
+	margin-top: 20px;
+	border-bottom: 1px solid black;
+	text-align: left;
+	padding-left: 20px;
+	line-height: 50px;
+}
+.classification ul{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.classification li{
+	height: 200px;
+	width: 45%;
+	float: left;
+	margin-left: 5%
+}
+.classification li img{
+	height: 80%;
+	margin-top: 6px;
+}
+.classification li h3,p{
+	text-align: left;
+	
+}
+.classification li h3{
+	font-size: 14px;
+}
+.classification li p{
+	font-size: 12px;
+	color: #999;
+}
+.classification li .icon{
+	margin: 10px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 2px solid #b0986e;
+}
+.classification li .icon:hover{
+	background-color: #eee;
+}
+/* pc용 */
+@media all and (min-width:1132px){
+	.expectation_effectiveness li{
+		float: left;
+		width: 23%;
+		margin-left: 2.6%;
+	}
+	.expectation_effectiveness li:first-child{
+		margin-left: 0%;
+	}
+	.expectation_effectiveness{
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 50px;
+}
+	.classification li{
+	width: 18%;
+	float: left;
+	margin-left: 2%
+}
+    .classification li .icon{
+	margin-left: 0;
+}
+    
+  .classification li h3{
+	padding-left: 8px;
+    color: #b99b64;;  
+}
+   .classification li h3{
+	color: #b99b64;;
+}
+.classification li p{
+    color: #666;
+    }
+
+}

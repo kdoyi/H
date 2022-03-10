@@ -1,0 +1,165 @@
+#imgslide{
+    background-image: url(../images/sub04_1/coffprogram.jpg);
+  
+}
+section.program{
+margin-top: 30px;    
+}
+
+ul.program_list{
+    width: 100%;
+}
+ul.program_list li .imgbox>img{
+    width: 100%;
+}
+ul.program_list li .textbox, .textbox h3, .textbox h5, .textbox p{
+    text-align: left;
+    font-size: 13px;
+}
+.textbox{
+    margin: 20px;
+    padding-bottom: 10px;
+}
+.textbox h3{
+    line-height: 50px;
+    font-size: 18px;
+    color: #152032;
+}
+.textbox h5{
+    font-weight: normal;
+    padding-left: 4px;
+    color: #b99b64;
+    font-size: 14px;
+}
+.textbox h3 img{
+    height: 40px;
+    margin-right: 10px;
+}
+.textbox p{
+    font-size: 13px;
+    margin: 5px;
+    padding: 10px 0 10px 4px;
+}
+.textbox span{
+    background-color: #152032;
+    color: #b99b64;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.program_list li:hover{
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 -1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+/*
+.content8{
+    position: relative;
+}
+.content8_img1{
+    position: absolute;
+    animation: fade2 12s infinite;
+}
+.content8_img2{
+    animation: fade1 12s infinite;
+}
+@keyframes fade1{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;} 
+}
+@keyframes fade2{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;} 
+}
+.content9{
+    position: relative;
+}
+.content9_img1{
+    position: absolute;
+    animation: fade2 12s infinite;
+}
+.content9_img2{
+    animation: fade1 12s infinite;
+}
+*/
+
+    
+@media all and (min-width:1132px){
+    ul.program_list>li{
+        float: left;
+        width: 30%;
+        margin-left: 2%;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    
+    ul.program_list li .textbox{
+       width: 95%;
+        margin: 0;
+        height: 200px;
+    }
+    
+    ul.program_list li .imgbox{
+        width: 100%;
+    }
+    
+    .program_list li:hover{
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 -1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+    section.introduce h2{
+        display: block;
+    }
+    
+    ul.program_list2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    
+    ul.program_list2>li{
+        width: 48%;
+    }
+    ul.program_list li .textbox{
+        margin: 10px;
+    }
+    
+    .textbox{
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.textbox h3{
+    line-height: 50px;
+    font-size: 18px;
+    color: #152032;
+}
+
+.textbox h5{
+    font-weight: normal;
+    padding-left: 4px;
+    color: #b99b64;
+    font-size: 14px;
+}
+.textbox h3 img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.textbox p{
+    font-size: 13px;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 10px 0  0 4px;
+}
+.textbox span{
+    background-color: #152032;
+    color: #b99b64;
+    font-size: 13px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+}
+

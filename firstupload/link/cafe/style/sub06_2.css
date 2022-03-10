@@ -1,0 +1,143 @@
+#imgslide06{
+    height: 100px;
+    background-image:url(../images/sub06_1/img_title06.jpg);
+    background-position: center;
+    background-size: cover;
+	}
+
+/*모바일용 CSS*/
+/*갤러리 시작*/
+
+*{box-sizing: border-box;}
+
+#myInput {
+  background-image: url(..//images/sub06_1/icon_search_g.png);
+  background-position: 95% 8px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 15px 20px 15px 40px;
+  box-sizing: border-box;      
+  font-size: 13px;
+  border: 1px solid #ddd;
+  margin: 15px 0;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  padding: 10px;    
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px 15px;
+  text-align: left;
+  font-size: 11px;
+  color: #666;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+div.desc span{
+  font-size: 15px;
+}
+
+* {box-sizing: border-box;}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+  margin-bottom: 15px;    
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49%;
+    margin: 6px 0;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*페이지번호*/
+.pagination{
+  width: 230px;
+  height: 40px;    
+  margin: 10px auto;
+  margin-left: 20%;    
+}   
+
+.pagination_list a {
+  color: #666;
+  float: left;
+  padding: 8px 12px;
+  font-size: 13px;    
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination_list a.active {
+  background-color: #888;
+  color: white;
+}
+
+.pagination_list a:hover:not(.active) {background-color: #c0c0c0;} 
+
+
+#imgslide06{
+	display: none;
+}
+
+
+/* pc용 */
+@media all and (min-width:1132px){  
+#imgslide06{
+	height: 100px;
+	background-image:url(../images/sub06_1/img_title06.jpg);
+	background-position: center;
+	background-size: cover;
+    box-sizing: border-box;
+	display: block;
+	width:99%;
+	margin: 0 auto;
+	}
+    
+#gallery_list{
+  width: 90%;
+  margin: 0 auto;
+}
+    
+/*검색바*/    
+
+/*페이지번호*/
+    
+.pagination{
+  width: 36%;
+  margin: 0 auto;
+  position: absolute;
+  left: 42.6%;
+}    
+
+.pagination_list a {
+  color: #777;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+
+    
+}  /*pc닫힘*/

@@ -1,0 +1,449 @@
+/*모바일용 CSS*/
+
+/*모바일 게시판*/
+* { box-sizing: border-box;}
+
+/*부스배치도 이미지*/
+
+.booth_definition li{
+animation: text-shadow 1.5s ease-in-out infinite;
+animation-play-state: paused;
+}
+  
+.booth_definition li:hover:not(.openbutton) {
+    animation-play-state: running ;
+}
+
+@keyframes text-shadow {
+    0% {  
+        transform: translateY(0);
+    }
+    20% {  
+        transform: translateY(-1em);
+    }
+    40% {  
+        transform: translateY(0.5em);
+    }
+   60% {
+        transform: translateY(-0.25em);
+    }
+    80% {  
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+}
+.booth img{
+	width: 100%;
+    border: 20px solid #eee;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.booth_pc{
+	display: none;
+}
+.booth_mo{
+	position: relative;
+	height: 100%;
+}
+.booth_definition li{
+	position: absolute;
+	z-index: 10;
+	background-color: darkorange;
+	padding: 10px;
+    width: 5%;
+    height: 8%;
+	border-radius: 50%;
+}
+.booth_definition_mo li.a{
+	top: 44%;
+	left: 19%;
+}
+.booth_definition_mo li.b{
+	top: 60%;
+	left: 74%
+}
+.booth_definition_mo li.c{
+	top: 24%;
+	left: 47%;
+}
+.booth_definition_mo li.d{
+	top: 34%;
+	left: 84%;
+}
+.booth_definition_mo li.toliet{
+	top: 16%;
+	left: 72%;
+	background-color: dodgerblue;
+	color: #fff;
+
+}
+.booth_definition_mo li.info{
+	top: 66%;
+	left: 6%;
+	background-color: blueviolet;
+	color: #fff;
+}
+.booth_definition_mo li.subway{
+	top: 55%;
+	left: 8%;
+	background-color: yellow
+}
+.booth_definition_mo li.parking{
+	top: 72%;
+	left: 50%;
+	background-color: darkturquoise;
+	color: #fff;
+}
+.booth_definition_mo li.tourbus{
+	background-color: firebrick;
+	color: #fff;
+	top: 70%;
+	left: 74%;
+}
+/*부스배치도 이미지*/
+
+.m_notice{
+    width: 100%;
+}
+
+.m_notice td a{
+   text-align: left;
+   padding-left: 10px;  
+   color: #666;    
+}
+
+.m_notice .m_number{width: 30%;}
+.m_notice .m_title{width: 70%;}
+
+.m_notice .m_number a, .m_notice .m_title a{
+    text-align: center;
+    padding: 0;
+}
+
+.m_notice .part01 .m_number, .m_notice .part01 .number{
+    background-color:lavenderblush;
+}
+
+.m_notice .part02 .m_number, .m_notice .part02 .number{
+    background-color:aliceblue
+}
+
+.m_notice .part03 .m_number, .m_notice .part03 .number{
+    background-color:honeydew
+}
+
+
+.m_notice .part04 .m_number, .m_notice .part04 .number{
+    background-color:lavender
+}
+
+#myTable{
+    width: 50%;
+    float: left;
+}
+
+#myTable {
+  /*border-collapse: collapse;
+  border: 1px solid #ddd;  width: 100%;*/
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+#myTable .header {
+  height: 50px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 1px 10px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+  height: 20px;  
+}
+
+#myTable th a, #myTable td a {
+  display: block;
+}
+
+#myTable tr.headertitle, #myTable tr:hover {
+  background-color: #eee;
+}
+
+#myTable tr.headertitle th{
+  text-align: center;
+  padding: 9px 0;
+  font-size: 16px;    
+}
+
+#myTable tr.headertitle th.m_title{
+  font-size: 20px;    
+}
+
+
+#myTable .number, #myTable .day{
+ text-align: center;
+}
+
+.m_notice .m_admin, .m_notice .m_count, .m_notice .admin, .m_notice .count{
+  display: none;
+} 
+
+   
+/*참가업체보기 버튼 mobile*/
+.booth_mo booth{
+    background-color: palevioletred;
+    width: 100%;
+    line-height: 50px;
+    position: relative;
+}
+.booth_definition_m booth_definition{
+    float: left; 
+    clear: both; 
+    width: 100%; 
+    
+}
+.col { float: left; margin: 0 0 1.2em; padding-right: 1.2em; padding-left: 1.2em; }
+.col.openbutton{ 
+    width: 100%;
+
+}
+
+/*@media screen and (min-width: 767px) {
+  .col width:100%; float:left; clear:both;}
+  .col.openbutton { width: 24.99%; }
+}*/
+
+.btn {font-size: 18px; 
+    white-space:nowrap; 
+    width:25%; 
+    padding: 9px 8px;; 
+    font-family: Open Sans, Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 12px; 
+    line-height:9px; 
+    display: inline-block;zoom: 1; 
+    color: #fff; 
+    text-align: center; 
+    position: absolute;
+    right: 0;
+}
+
+.btn.btn-sunflower{
+    background-color: #152032; 
+    border-color: #152032;
+    box-shadow: 0 3px 0 #888;
+    position: absolute;
+    display: inline-block;
+}
+
+.btn.btn-sunflower:hover{
+    background-color:#555;
+}
+
+.btn.btn-sunflower:active{
+    top: 3px; outline: none; 
+}
+
+
+
+
+/* pc용 */
+@media all and (min-width:1132px){
+.booth_pc{
+	display: block;
+	position: relative;
+}
+    
+.booth_mo{
+	display: none;
+}
+.booth_definition_pc li{
+	position: absolute;
+	z-index: 10;
+}
+    
+.booth_definition_pc li a{
+     display: block;
+}
+    
+.booth_definition_pc li.a{
+	top: 62%;
+	left: 29%;
+}
+    
+.booth_definition_pc li.b{
+	top: 74%;
+	left: 62%
+}
+.booth_definition_pc li.c{
+	top: 21%;
+	left: 46%;
+}
+.booth_definition_pc li.d{
+	top: 28%;
+	left: 72%;
+}
+.booth_definition_pc li.toliet{
+	top: 9%;
+	left: 68%;
+	background-color: dodgerblue;
+	color: #fff;
+    display: block;
+    border-radius: 5%;
+}
+.booth_definition_pc li.info{
+	top: 63%;
+	left: 6%;
+	background-color: blueviolet;
+	color: #fff;
+}
+.booth_definition_pc li.subway{
+	top: 72%;
+	left: 18%;
+	background-color: yellow
+}
+.booth_definition_pc li.parking{
+	top: 85%;
+	left: 54%;
+	background-color: darkturquoise;
+	color: #fff;
+}
+.booth_definition_pc li.tourbus{
+	background-color: firebrick;
+	color: #fff;
+	top: 70%;
+	left: 74%;
+}
+ 
+ /*업체보기 버튼 pc*/
+.booth_mo booth{
+    position: relative;
+}
+    
+.booth_definition_m booth_definition{
+    float: left; 
+    clear: both; 
+    width: 100%; 
+}
+
+.btn {font-size: 15px; 
+    white-space:nowrap; 
+    width:15%; 
+    padding: 15px 5px; 
+    font-family: Open Sans, Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    line-height:9px; 
+    display: inline-block;zoom: 1; 
+    color: #fff; 
+    text-align: center; 
+    position: fixed;
+    right: 80px;
+
+}
+
+.btn.btn-sunflower{
+    background-color: #152032; 
+    border-color: #152032;
+    box-shadow: 0 3px 0 #888;
+    position: absolute;
+    display: inline-block;
+}
+
+.btn.btn-sunflower:hover{
+    background-color:#555;
+}
+
+.btn.btn-sunflower:active{
+    top: 3px; outline: none; 
+}
+
+
+ .booth_pc.booth img{
+        width: 90%;
+    }    
+ /*pc게시판*/
+    
+.m_notice{
+    width: 75%;
+    display: none;
+    position: absolute;
+    top: 450px;
+    left: 260px;
+    z-index: 111;
+    background-color: #fff;
+}
+
+.m_notice a{
+    text-align: left;
+    padding-left: 15%;
+}
+    
+.booth_map{
+    height: 850px;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 10px;
+    position: relative;
+    font-family: Arial;
+    font-size: 18px;
+    border: 8px solid #fff;
+    
+}
+    
+.booth_definition_pc .a, .booth_definition_pc .b, .booth_definition_pc .c, .booth_definition_pc .d{
+    width: 8%;
+    height: 15%;
+    display: block;
+    background-color: orange;
+    line-height: 530%;
+    color: #fff;
+    font-size: 20px;
+}    
+    
+/*구역표시 시작*/
+.text-block {
+  position: ;: absolute;
+  top: 50%;
+  left: 50%;
+  background-color:orangered;
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 50%;
+}    
+/*구역표시 끝*/    
+ 
+#myTable {
+/*
+  border-collapse: collapse;
+*/
+  width: 25%;
+  margin: 0 auto;
+  font-size: 12px;
+  float: left;
+}
+
+ .clearfix{
+     clear: both;
+ } 
+    
+    .introduce{
+        margin-top: 30px;
+    }
+    
+    .introduce p{
+        color: #555;
+    }
+    
+ 
+    
+    
+    
+}  /*pc닫힘*/

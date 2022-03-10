@@ -1,0 +1,490 @@
+/*sub01_6 오시는 길*/
+/* mobile용 시작*/
+.header{z-index: 1;}
+
+.introduce p{
+    color: #555;
+    font-size: 13px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+*{box-sizing: border-box;}
+
+/*지하철노선도 바 시작*/
+.subway{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+form .subwaybar {
+  font-size: 12px;
+  border: 1px solid #ddd;
+  float: left;
+  width: 75%;
+  padding: 10px 15px;
+  background: #f1f1f1;
+  text-align: left;
+}
+
+form .subwaybar span{
+    background-color: goldenrod;
+    padding: 1% 2%;
+    color: #fff;
+    border-radius: 20px;
+}
+
+form .subwaybar .boondang{
+    background-color: darkgreen;
+    padding: 1% 3%;
+    color: #fff;
+}
+
+form .subwaybar .two{
+    background-color: darkgreen;
+    padding: 1% 3%;
+    color: #fff;
+}
+
+form.example button {
+  float: left;
+  width: 25%;
+  height: 40px;    
+  padding: 10px 5px;
+  background: #888;
+  color: #fff;
+  font-size: 11px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background-color: #555;
+}
+
+/*지하철노선도 바 끝*/
+
+
+
+/* 탭*/
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+
+
+/* Style tab links */
+button.tablink {
+  background-color: #b99b64;
+  color: #fff;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 15px;
+  width: 25%;
+  border-right: 1px solid #fff;    
+}
+
+.tablink:nth-child(4){
+    border: none;
+}
+
+.tablink:hover {
+  background-color: #152032;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #fff;
+  display: none;
+  width: 100%;
+  height: 600px;  
+}
+
+.tabcontent img{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.tabcontent iframe{
+    width: 100%;
+    height: 70%;    
+    padding: 5px;
+}
+
+.tabcontent .adress{
+    font-size: 13px;
+    color: #555;
+    margin: 12px 0;
+    text-align: left;
+    padding-left: 16%;
+}
+
+.tabcontent ul{
+    padding: 10px 5px;
+    margin-left: 20px
+}
+
+
+/*탭01*/
+.tabcontent.tab01 li{
+    color: #555;
+    text-align: left;
+    height: 2em;
+    padding: 5px 20px;
+    font-size: 12px;
+    margin-left: 38px;
+        
+}
+
+.tabcontent.tab01 span{
+    color: #fff;
+    text-align: left;
+    padding: 1px;
+    margin-right: 10px;
+    width: 40px;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 11px;
+}
+
+/*탭1 지하철 아이콘*/
+.tabcontent.tab01 .adress.subway{
+    background-image: url(../images/sub01_6/icon_subway.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 30px 0; 
+    }  
+
+
+.tabcontent.tab01 span.boondang{background-color: goldenrod;}
+.tabcontent.tab01 span.two{background-color: green;}
+.tabcontent.tab01 span.middle{background-color: #528c73;}
+
+
+/*탭02*/
+
+.tabcontent.tab02 ul{
+    float: left;
+    width: 45%;
+    margin-left: 3.5%;
+}
+
+.tabcontent.tab02 li{
+    color: #555;
+    text-align: left;
+    width: 100%;
+    height: 2em;
+    padding: 5px 10px;
+    font-size: 12px
+}
+
+.tabcontent.tab02 .seoul li{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.tabcontent.tab02 span{
+    color: #fff;
+    text-align: left;
+    padding: 1px;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+.tabcontent.tab02 .station{
+    color: #152032;
+    font-size: 13px;
+    width: 90%;
+/*
+    float: left;
+*/
+    margin-bottom: 5px;
+}
+
+.tabcontent.tab02 span.greenbus{
+    background-color: forestgreen;
+    display: inline-block;
+}
+
+.tabcontent.tab02 span.bluebus{
+    background-color: royalblue;
+}
+
+.tabcontent.tab02 .adress.bus{
+    background-image: url(../images/sub01_6/icon_bus.png);
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    background-size: contain;
+    background-position: 25px 0;
+    }       
+        
+
+/*탭03*/
+
+.tabcontent.tab03 ul{
+    float: left;
+    width: 100%;
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+.tabcontent.tab03 li{
+    color: #555;
+    text-align: left;
+    height: 2em;
+    font-size: 12px
+}
+
+.tabcontent.tab03 span{
+    color: #555;
+    width: 100px;
+    text-align: center;
+    display: inline;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.tabcontent.tab03 .adress.car{
+    background-image: url(../images/sub01_6/icon_car.png);
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    background-size: contain;
+    background-position: 25px 0;
+    }      
+
+
+/*탭04 자전거*/
+
+.tabcontent.tab04 ul{
+    float: left;
+    width: 100%;
+    padding: 10px 20px;
+}
+.tabcontent.tab04 li{
+    color: #555;
+    text-align: left;
+    height: 2em;
+    padding: 0 1px 0 0;
+    font-size: 12px;
+}
+
+.tabcontent.tab04 li:first-child{
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
+
+.tabcontent.tab04 span{
+    color: #fff;
+    text-align: left;
+    padding: 1px;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+.tabcontent.tab04 ul{
+       width: 100%;
+       padding-left: 10px;
+    }    
+
+
+.tabcontent.tab04 .adress.bicycle{
+    background-image: url(../images/sub01_6/icon_bicycle.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+     background-size: contain;
+    background-position: 25px 0;
+    }   
+
+@media screen and (max-width: 400px) {
+  .tablink{
+    text-align: center;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tablink {
+    width: 100%;
+    height: auto;
+    position: relative;
+ }
+}
+
+
+#Home {background-color: #fff;}
+#News {background-color: #fff;}
+#Contact {background-color: #fff;}
+#About {background-color: #fff;}
+
+
+
+
+
+
+/* pc용 */
+@media all and (min-width:1132px){
+.subway{ 
+    width: 90%;
+    margin: 20px auto;
+}
+    
+.waytab{
+    width: 90%;
+    height: 850px;
+    margin: 0 auto;
+    }    
+*{box-sizing: border-box;}
+
+.introduce p{
+    color: #555;
+    font-size: 13px;
+    margin-top: 30px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}  
+    
+button.tablink {
+  padding: 13px 16px;
+}
+    
+ form .subwaybar {
+  font-size: 13px;
+  border: 1px solid #ddd;
+  float: left;
+  width: 85%;
+  padding: 10px 15px;
+  background: #f1f1f1;
+  text-align: left;
+}
+    
+    
+form.example button {
+  float: left;
+  width: 15%;
+  height: 40px;    
+  padding: 10px 5px;
+  background: #888;
+  color: #fff;
+  font-size: 13px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}    
+
+form .subwaybar span{
+    background-color: goldenrod;
+    padding: 0.5% 1%;
+    color: #fff;
+    border-radius: 20px;
+}
+
+form .subwaybar .two{
+    background-color: darkgreen;
+    padding: 0.5% 1%;
+    color: #fff;
+}
+
+
+
+/* Style the tab content (and add height:100% for full page content) */
+
+.tabcontent iframe{
+    width: 100%;
+    height: 100%;    
+    padding: 5px;
+}
+    
+.tabcontent .adress{
+    font-size: 15px;
+    color: #152032;
+    margin: 16px 0;
+    background-image: url(../images/sub01_6/icon_address.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 40px;
+    text-align: left;
+    padding-left: 85px;
+}
+
+
+    
+    
+    
+    
+/*탭01*/
+.tabcontent.tab01 .adress.subway{
+    background-image: url(../images/sub01_6/icon_subway.png);
+    background-repeat: no-repeat;
+    }  
+    
+
+/*탭02*/
+    
+.tabcontent.tab02 .adress.bus{
+    background-image: url(../images/sub01_6/icon_bus.png);
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    }       
+        
+
+.tabcontent.tab02 ul{
+    float: left;
+    width: 40%;
+}
+
+.tabcontent.tab02 li{
+    color: #555;
+    text-align: left;
+    height: 2em;
+    padding: 5px 10px;
+    font-size: 12px
+}
+
+.tabcontent.tab02 .seoul li{
+    margin-left: 20px;
+}
+
+/*탭03 승용차*/
+.tabcontent.tab03 .adress.car{
+    background-image: url(../images/sub01_6/icon_car.png);
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    }       
+    
+
+/*탭04 자전거*/
+.tabcontent.tab04 ul{
+       width: 100%;
+       padding-left: 50px;
+    }    
+
+    
+.tabcontent.tab04 li{
+      width: 100%;
+      font-size: 13px;
+      line-height: 50px;
+    }
+    
+.tabcontent.tab04 .adress.bicycle{
+    background-image: url(../images/sub01_6/icon_bicycle.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    }   
+
+} /*pc용 끝*/

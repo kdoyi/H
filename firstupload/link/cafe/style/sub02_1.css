@@ -1,0 +1,425 @@
+/*모바일용*/
+
+.guide{
+    margin: 50px auto;
+}
+
+.box01{
+    margin: 20px auto;
+    text-align: center;
+}
+.line{
+    width: 250px;
+    height: 2px;
+    background-color: #152032;
+    margin: 2px auto;
+}
+
+.title{
+    width: 260px;
+    color: #152032;
+    margin: 0 auto;
+}
+
+.box01 p{
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+    color: #555;
+    font-size: 13px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.box02{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.stitle{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 40px 0 15px 0;
+    color: #152032;
+    font-size: 17px;
+}
+
+.listbox{
+    border: 2px solid #000;
+    width: 340px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sstitle{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 9px;
+    background-color: #152032;
+    font-weight: normal;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    border-radius: 20px;
+}
+
+
+.listbox p{
+	margin-top: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.box02 .listbox p{
+    padding: 16px;
+    color: #555
+}
+
+.next{
+    width: 20px;
+    height: 20px;
+    margin: 10px auto;
+}
+
+table{
+    margin: 0 auto;
+}
+.box03 table{
+    border-collapse: collapse;
+}
+
+.box03 table tr{
+    margin: 0 auto;
+    font-weight: normal;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    height: 40px;
+}
+
+.trtitle th{
+    background-color: #152032;
+    text-align: center;
+    width: 200px;
+    color: #fff;
+    font-weight: normal;
+    height: 35px;
+    font-size: 14px;
+}
+
+table td{
+    border: 1px solid #999;
+}
+
+.box03 p{
+    margin: 8px auto;
+    font-size: 12px;
+}
+
+.box03 table tr td{
+    font-size: 12px;
+}
+
+.box04 table{
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.box04 table tr{
+    height: 20px;
+}
+
+.box04 table tr td{
+    border: 1px solid #999;
+    height: 30px;
+    width: 260px;
+    font-size: 12px;
+}
+
+.box04 td img{
+    width: 100%;
+}
+
+.box04 .trtitle{
+    height: 20px;
+}
+
+.trtitle2{
+    height: 250px;
+}
+
+.box04 .listtitle{
+    width: 90px;
+}
+
+.box04 table .td_text{
+    text-align: left;
+    padding: 8px;
+}
+
+.box04 p{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px auto;
+    margin-bottom: 30px;
+}
+
+.box05{
+    font-size: 15px;
+    color: #152032;
+    height: 200px;
+}
+
+.box05 stic{
+    width: 50px;
+    display: inline-block;
+    height: 3px;
+    background-color: #152032;
+}
+
+.box05 p{
+    font-size: 14px;
+    line-height: 25px;
+    padding: 30px 0;
+    color: #555;
+    text-align: left;
+    
+}
+
+.box05 ul{
+    height: 150px;
+    margin: 0 auto;
+}
+
+.box05 li{
+    width: 78px;
+    float: left;
+    padding: 10px 4px 0 10px;
+}
+
+.box05 li p{
+    width: 100%;
+    font-size: 11px;
+    line-height: 16px;
+    padding: 0 3px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.box05 li img{
+    width: 80%;
+}
+
+/* pc용 */
+@media all and (min-width:1132px){
+    .pc_only li{
+        float: left;
+        width: 120px;
+        height: 100px;
+        line-height: 100px;
+        background-color: #fff;
+        color: #152032;
+    }
+    
+    .line{
+        margin: 2px 0;
+        height: 3px;
+    }
+    
+    .title{
+        margin: 0;
+    }
+    
+    .box01 p{
+        width: 440px;
+        margin: 10px 0;
+        font-size: 14px;
+        text-align: left;
+        line-height: 2;
+        padding: 10px;
+    }
+    
+    .stitle{
+        text-align: left;
+        padding: 10px;
+    }
+    
+    .box02{
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .box02 ul{
+        width: 100%;
+        float: left;
+    }
+    
+    .listbox{
+        float: left;
+        width: 29%;
+        box-sizing: border-box;
+        height: 130px;
+		line-height: 12px;
+    }
+    
+    .listbox p{
+		margin-top: 20px;
+        height: 50px;
+        line-height: 30px;
+        font-size: 19px;
+    }
+    
+    .next{
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin: 50px 10px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .box03{
+        float: left;
+        width: 100%;
+    }
+    
+    .box03 table{
+        margin: 0;
+        line-height: 40px
+        
+    }
+
+    table tr{
+        border: 1px solid #999;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    .trtitle td{
+        background-color: #152032;
+        text-align: center;
+        width: 550px;
+        color: #fff;
+        font-weight: normal;
+    }
+    
+    .box03 table tr td{
+        font-size: 16px;
+    }
+
+    .box03 p{
+        margin: 20px auto;
+        font-size: 13px;
+        text-align: left;
+        color: #555;
+    }
+    
+    .box04{
+        float: left;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .box04 table{
+        width: 100%;
+    }
+    
+    .box04 table td{
+        width: 100%;
+    }
+    
+    .box04 table .trtitle2{
+        height: 250px;
+    }
+    
+    .box04 .listtitle{
+        width: 250px;
+    }
+    
+    .box04 table tr td{
+        font-size: 17px;
+        padding: 10px;
+        color: #555;
+    }
+    
+    .box04 p{
+        margin: 20px auto;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    .box05{
+        font-size: 25px;
+        color: #152032;
+        width: 100%;
+        height: 200px;
+    }
+    
+    .box05 stic{
+        width: 70px;
+        display: inline-block;
+        height: 5px;
+        background-color: #152032;
+    }
+    
+    .box05 p{
+        font-size: 16px;
+        padding: 30px 0;
+        color: #555;
+        text-align: left;
+    }
+    
+    .box05 ul{
+        width: 90%;
+        height: 180px;
+        margin: 0 auto;
+    }   
+    
+.box05 li{
+    width: 20%;
+    float: left;
+    margin-left: 55px;
+}
+   
+.box05 li:first-child{
+      margin-left: 0;
+    }    
+
+
+.box05 li p{
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 13px 3px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.box05 li:first-child p{
+text-align: left;
+}
+    
+.box05 li:last-child p{
+text-align: left;
+}    
+
+.box05 li img{
+    width: 50%;
+}
+    
+
+    .box04 .listtitle{
+    width: 90px;
+}
+
+    
+    .wrap{
+        width: 75%;
+    }
+}

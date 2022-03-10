@@ -1,0 +1,501 @@
+/*01_3 일정표 모바일 시작*/
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+
+#calendar {
+    width: 100%;
+    margin: 0 auto
+}
+
+#calendar a {
+    color: #152032;
+    text-decoration: none;
+}
+
+#calendar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#calendar li {
+    display: block;
+    float: left;
+    width: 14.342%;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+
+#calendar ul.weekdays {
+    height: 40px;
+    background: #eee;
+}
+
+#calendar ul.weekdays li {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 6px;
+    color: #152032;
+    font-size: 15px;
+}
+
+#calendar .days li {
+    height: 210px;
+}
+
+/* 월화수목금색상지정*/
+/*#calendar .monday li{
+    background-color: #FFE9EB;
+}*/
+#calendar .monday li.other-month {
+    background-color: #152032;
+}
+
+/*#calendar .tuesday li{
+    background-color: #FFEBD2;
+}*/
+#calendar .tuesday li.other-month {
+    background-color: #152032;
+}
+
+/*#calendar .wednesday li{
+    background-color: #EDFFB3;
+}*/
+#calendar .wednesday li.other-month {
+    background-color: #152032;
+}
+
+/*#calendar .thursday li{
+    background-color: #DCFFED;
+}*/
+#calendar .thursday li.other-month {
+    background-color: #152032;
+}
+
+/*#calendar .friday li{
+    background-color: #CCE1FF;
+}*/
+#calendar .friday li.other-month {
+    background-color: #152032;
+}
+
+/*#calendar .days li.day00{
+    
+}*/
+/*#calendar .days li:hover {
+    background: #eee;
+}*/
+
+#calendar .date {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #152032;
+    font-size: 17px;
+}
+
+#calendar .event {
+    clear: both;
+    display: block;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 2px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    line-height: 13px;
+    color: #009aaf;
+    text-decoration: none;
+}
+
+#calendar .event-desc {
+    color: #666;
+    padding: 3px 0 7px 0;
+    text-decoration: none;
+    width: 100%;
+    height: 0.8rem;
+}
+
+/*상시프로그램 아이콘*/
+
+.always_icon{
+    width: 35%;
+    float: left;
+    display: inline-block;
+    text-align: right;
+}
+.always_icon img{
+    width: 38%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.always_event-desc{
+    float: left;
+    width: 50%;
+    height: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: left;
+    line-height: 50px;
+    color: #555;
+}
+
+
+
+/*어워드 아이콘*/
+.award_icon{
+    width: 100%;
+}
+.award_icon img{
+    width: 15%;
+}
+
+
+
+/*콘서트 아이콘*/
+.concert_icon{
+    width: 100%;
+}
+.concert_icon img{
+    width: 13%;
+}
+
+
+/*빵순이&커피보이*/
+.boygirl_icon{
+    width: 100%;
+}
+
+.boygirl_icon img{
+    width: 15%;
+}
+    
+    
+/*다큐아이콘*/
+.documentary_icon{
+    width: 100%;
+}
+.documentary_icon img{
+    width: 13%;
+}
+    
+/*7080콘서트 아이콘*/
+.concert7080_icon{
+    width: 100%;
+}
+.concert7080_icon img{
+    width: 13%;
+}    
+    
+/*바리스타 아이콘*/
+.barista_icon{
+    width: 100%;
+}
+.barista_icon img{
+    width: 13%;
+}
+    
+/*셰프 아이콘*/
+.chef_icon{
+    width: 100%;
+}
+.chef_icon img{
+    width: 13%;
+}
+
+/*심야영화 아이콘*/
+.night_movie_icon{
+    width: 100%;
+}
+.night_movie_icon img{
+    width: 13%;
+}
+
+/*마카롱 아이콘*/
+.macaroon_icon{
+    width: 100%;
+}
+.macaroon_icon img{
+    width: 13%;
+}    
+
+/*영화필름 아이콘*/
+.movie_icon{
+    width: 100%;
+}
+.movie_icon img{
+    width: 12%;
+}      
+
+#calendar .other-month {
+    background: #eee;
+    color: #666;
+}
+
+.subday {
+    font-size: 12px;
+    padding: 2px 0;
+    background-color: #777;
+    color: #fff;
+    width: 30%;
+    border-radius: 3px;
+}
+
+
+/* 모바일 반응형*/
+@media(max-width: 768px) {
+    #calendar .weekdays
+
+    /*, #calendar .other-month*/
+   {
+        display: none;
+    }
+    
+   .event-time{
+    color: #009aaf;
+    font-size: 12px;
+}
+
+    #calendar li {
+        height: auto !important;
+        border: 1px solid #ededed;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: -1px;
+    }
+
+    #calendar .date {
+        float: none;
+        height: 30px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    #calendar .date span {
+        font-size: 15px;
+        background-color: #b99b64;
+        color: #fff;
+        padding: 1px 7px;
+        border-radius: 5%;
+
+    }
+
+    #calendar .date > p {
+        width: 250px;
+        display: inline-block;
+        font-size: 18px;
+        padding: 4px 10px;
+        color: #fff;
+    }
+  
+}
+
+/*미디어쿼리 닫힘*/
+
+
+
+/* pc용 */
+@media all and (min-width:1132px) {
+
+.subday {
+        display: none;
+}
+
+    
+   .event-time{
+    color: #009aaf;
+    font-size: 12px;
+}    
+    
+    /* 월화수목금색상지정*/
+    /*#calendar .monday li{
+    background-color: #FFE9EB;
+}*/
+    #calendar .monday li.other-month {
+        background-color: #e6f7fd;
+    }
+
+    /*#calendar .tuesday li{
+    background-color: #FFEBD2;
+}*/
+    #calendar .tuesday li.other-month {
+        background-color: #e6f7fd;
+        ;
+    }
+
+    /*#calendar .wednesday li{
+    background-color: #EDFFB3;
+}*/
+    #calendar .wednesday li.other-month {
+        background-color: #e6f7fd;
+    }
+
+    /*#calendar .thursday li{
+    background-color: #DCFFED;
+}*/
+    #calendar .thursday li.other-month {
+        background-color: #e6f7fd;
+    }
+
+    /*#calendar .friday li{
+    background-color: #CCE1FF;
+}*/
+    
+    #calendar .friday li.other-month {
+        background-color: #e6f7fd;
+}
+
+    /*#calendar .days li.day00{
+    
+}*/
+ #calendar .days li:hover {
+     background: #eee;
+}
+    
+ #calendar .days li .date {
+    font-size: 15px;
+    padding: 60px 0; 
+}
+
+ #calendar .days li .date span{
+    font-size: 17px;
+    font-weight: bold;
+    color: #152032;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}        
+
+ /*상시프로그램 아이콘*/
+
+.always_icon{
+    width: 29%;
+    float: left;
+    display: inline-block;
+    margin-left: -10px;
+}
+.always_icon img{
+    width: 70%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.always_event-desc{
+    float: left;
+    width: 70%;
+    height: 30px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: left;
+    line-height: 40px;
+    color: #555;
+    font-size: 12px;
+}
+
+.always_event-desc.bicycle{
+    font-size: 11px;
+}    
+   
+    
+    
+    
+    
+    
+    
+/*어워드 아이콘*/
+.award_icon{
+    width: 100%;
+}
+.award_icon img{
+    width: 23%;
+
+}
+
+/*콘서트 아이콘*/
+.concert_icon{
+    width: 100%;
+}
+.concert_icon img{
+    width: 23%;
+}
+
+
+/*빵순이&커피보이*/
+.boygirl_icon{
+    width: 100%;
+}
+.boygirl_icon img{
+    width: 25%;
+}
+    
+    
+/*다큐아이콘*/
+.documentary_icon{
+    width: 100%;
+}
+.documentary_icon img{
+    width: 20%;
+}
+    
+/*7080콘서트 아이콘*/
+.concert7080_icon{
+    width: 100%;
+}
+.concert7080_icon img{
+    width: 20%;
+}    
+    
+/*바리스타 아이콘*/
+.barista_icon{
+    width: 100%;
+}
+.barista_icon img{
+    width: 25%;
+}
+    
+/*셰프 아이콘*/
+.chef_icon{
+    width: 100%;
+}
+.chef_icon img{
+    width: 20%;
+}
+
+/*심야영화 아이콘*/
+.night_movie_icon{
+    width: 100%;
+}
+.night_movie_icon img{
+    width: 20%;
+}
+
+/*마카롱 아이콘*/
+.macaroon_icon{
+    width: 100%;
+}
+.macaroon_icon img{
+    width: 20%;
+}    
+
+/*영화필름 아이콘*/
+.movie_icon{
+    width: 100%;
+}
+.movie_icon img{
+    width: 18%;
+}
+    
+    
+    
+    
+}

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Doyi's Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script> 
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/plugins/jquery-1.12.3.js"></script>
+    <script src="js/plugins/jquery.easing.min.js"></script>
+    <script src="script/skill.js"></script>
+    <script src="script/menu.js"></script>
+    <script src="script/slide.js"></script>
+    <script src="script/etc.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <header class="open">
+           <div class="menubtn close scroll">
+               <div class="m1"></div>
+                <div class="m2"></div>
+                <div class="m3"></div>
+           </div>
+           <span class="m-txt">MENU</span>
+            <nav id="menu">
+                <ul class="menu">
+                    <li>
+                    <a href="#main" class="scroll">Home</a>
+                    </li>
+                    <li>
+                        <a href="#info" class="scroll">About Me</a>
+                        <ul class="sub-menu">
+                            <li><a href="#skill" class="scroll">Skills</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#web" class="scroll">WEB</a>
+                    </li>
+                    <li>
+                        <a href="#web" class="scroll">Design</a>
+                    </li>
+                    <li>
+                        <a href="#info" class="scroll">Contact</a>
+                    </li>
+                    </ul>
+            </nav>
+        </header>
+        
+        <div id="main">
+            <div class="main-txt">
+                Draw the <span>bright life.</span>
+            </div>
+        </div>
+        
+        <div id="top">
+            <h1 class="logo"><a href="#main"><img src="img/main/name.png" alt=""></a></h1>
+            <span class="hello">제 포트폴리오에 오신 것을 환영합니다.</span>
+        </div>
+    </div>
+    
+    <seciton id="info">
+        <div class="rock"><img src="img/about/rock.jpg" alt=""></div>
+        <p class="about">ABOUT&nbsp;ME</p>
+        <div class="me"><img src="img/about/me.jpg" alt=""></div>
+        <h2 class="title1">Introduce<br>Myself</h2>
+        <div class="me-txt">
+            <h3>김희경</h3>
+            <ul>
+                <li><span class="bold">B</span> 1998.11.06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold">A</span> 경기도 시흥시 수인로 3312번길 16</li>
+                <li><span class="bold">T</span> 010.7157.7703&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold">M</span> rlagmlrud98@naver.com</li>
+            </ul>
+            <h3>CAREER</h3>
+            <ul>
+                <li><span class="date">20.12 - 22.03</span>&nbsp;&nbsp;이디엘엔터프라이즈&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li><span class="now">재직중</span>- 디자인팀 사원</li>
+            </ul>
+            <div class="more">
+                <a href="more.html">VIEW MORE</a>
+            </div>
+        </div>
+        <div class="flower"><img src="img/about/flower.png" alt=""></div>
+    </seciton>
+    
+    <section id="skill">
+        <h2 class="title2">Skills</h2>
+        <div>
+            <ul class="table">
+                <li>
+                    <h3>Html</h3>
+                    <p><span></span><span></span><span>90%</span></p>
+                    <p>웹 표준 접근성을 고려하여 제작 가능 합니다.</p>
+                </li>
+                <li>
+                    <h3>Css</h3>
+                    <p>
+                        <span></span><span></span><span>80%</span>
+                    </p>
+                    <p>트렌지션, 애니메이션 사용이 가능합니다.<br>
+                    반응형 페이지 제작 가능합니다.</p>
+                </li>
+                <li>
+                    <h3>Javascript/jQuery</h3>
+                    <p>
+                        <span></span><span></span><span>50%</span>
+                    </p>
+                    <p>기초 문법과 제어문을 숙지하며 기능을 구현할 수 있습니다.</p>
+                </li>
+                <li>
+                    <h3>Photoshop</h3>
+                    <p>
+                        <span></span><span></span><span>90%</span>
+                    </p>
+                    <p>이미지 편집을 할 수 있습니다.<br>
+                    제품 상세페이지 및 랜딩페이지 제작이 가능합니다.</p>
+                </li>
+                <li>
+                    <h3>Illustrator</h3>
+                    <p>
+                        <span></span><span></span><span>90%</span>
+                    </p>
+                    <p>로고 및 아이콘 제작이 가능합니다.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="web">
+        <h2 class="title3">WEB</h2>
+        <artcle class="web">
+            <div class="carousel">
+              <div class="carousel__nav">
+               <span id="moveLeft" class="carousel__arrow">
+               <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+               <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+               </svg>
+               </span>
+    <span id="moveRight" class="carousel__arrow" >
+      <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
+  <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+</svg>    
+    </span>
+  </div>
+  <div class="carousel-item carousel-item--1">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">First Project</h2>
+      <h1 class="carousel-item__title">CACACOCO FESTIVAL</h1>
+      <p class="carousel-item__description">기획부터 소재 제작 등<br>처음부터 끝까지 창작해내어 제작.<br>새로운 jQuery를 사용하려 시도함.</p>
+      <a href="link/cafe/index.html" class="carousel-item__btn">자세히보기</a>
+        </div>
+    </div>
+  </div>
+  <div class="carousel-item carousel-item--2">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">Second Project</h2>
+      <h1 class="carousel-item__title">NINIZ 화투</h1>
+      <p class="carousel-item__description">그림부터 소재 제작 및 게임화면 디자인을 제작<br>화투를 보여주기 위해 홈페이지 제작</p>
+      <a href="link/niniz/index.html" class="carousel-item__btn">자세히보기</a>
+        </div>
+    </div>
+  </div>
+    <div class="carousel-item carousel-item--3">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">Third Project</h2>
+      <h1 class="carousel-item__title">Fan page</h1>
+      <p class="carousel-item__description">배웠던 HTML 및 CSS, Java script를 활용하여<br>홈페이지 제작</p>
+      <a href="link/fan/index.html" class="carousel-item__btn">자세히보기</a>
+        </div>
+    </div>
+  </div>
+  <div class="carousel-item carousel-item--4">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">Fourth Project</h2>
+      <h1 class="carousel-item__title">Jo Malone</h1>
+      <p class="carousel-item__description">단출하고 이용하기 어려웠던 조말론 홈페이지를<br>기획 후 리뉴얼</p>
+      <a href="http://doyi2.dothome.co.kr/" class="carousel-item__btn">자세히보기</a>
+        </div>
+    </div>
+  </div>
+  </div>
+  
+</div>
+        </artcle>
+  
+</div>
+    </section>
+    
+    <section id="design" class="design">
+        <h2 class="title2">Design</h2>
+        <div class="etc">
+            <ul class="table2">
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_1.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>UI UX 디자인</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc1_1.jpg" alt="UI UX디자인">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_2.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>일러스트</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc2_1.jpg" alt="일러스트">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_3.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>웹 디자인</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc7_1.jpg" alt="웹 디자인">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_4.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>화투 디자인</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc8_1.jpg" alt="화투 디자인">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_5.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>상세페이지 디자인</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc9_1.jpg" alt="상세페이지 디자인">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_6.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>카드 디자인</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc4_1.jpg" alt="카드 디자인">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_7.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>모집공고 디자인</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc5_1.jpg" alt="모집공고 디자인">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_8.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>이벤트 디자인</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc11_1.jpg" alt="이벤트 디자인">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_9.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>상품 디자인</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc10_1.jpg" alt="상품 디자인">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/etc/etc_10.jpg" alt="">
+                    </a>
+                    <div class="modal_etc">
+                        <div>
+                            <div class="modal-header">
+                                <p>카드뉴스 디자인</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <img src="images/etc12_1.jpg" alt="카드뉴스">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+        </div>
+    </section>
+    <footer>
+        <p class="f-txt">Thank you for visiting.<br><span>I look forward to hearing from u.</span></p>
+        <div class="copy">
+            COPYRIGHT ⓒ 2022 김도이. ALL RIGHTS RESERVED.<br>
+본 사이트는 개인 포트폴리오 사이트로 제작되어 상업적 목적이 아닙니다. 사용된 일부 이미지 및 폰트 등은 별도의 출처가 있음을 밝혀 드립니다.<br>
+해상도 1920*1080에 최적화 되었습니다.
+        </div>
+    </footer>
+</body>
+</html>

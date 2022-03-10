@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CACACOCO를 소개합니다.</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage looping demo." />
+	<meta name="keywords"  content="fullpage,jquery,looping,loop,loopTop,loopBottom,demo" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="JS/jquery-1.12.3.js"></script>
+    <script src="JS/menu.js"></script>
+    <script type="text/javascript" src="JS/quick.js"></script>
+    <script src="JS/news.js"></script>
+    <script src="JS/icon.js"></script>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+<body>
+<div id="fullpage">
+
+<!--섹션00 표지-->
+	<div class="section" id="section0">
+        <div class="wrap">
+        <p id="introduce"></p>
+        <div class="main">
+         <button onclick="typeWriter()"><img src="IMG/main_logo.png" alt="" class="main_logo"></button>
+        </div>
+        </div>
+        
+        
+        <div class="wrap">
+            <ul class="team">
+            <li><img src="IMG/team_cha.png" alt="유나"><h5>팀장 <br>차유나</h5></li>
+            <li><img src="IMG/team_tae.png" alt="태연"><h5>팀원<br> 김태연</h5></li>
+            <li><img src="IMG/team_kim.png" alt="희경"><h5>팀원 <br>김희경</h5></li>
+        </ul>
+        
+        </div>
+
+	</div>
+	
+	
+<!--섹션01 개요(주제, 목적, 컨셉)-->
+	 <div class="section" id="section1">
+        <div class="wrapper">
+           <div class="main_title">
+                <h1>01. Summary</h1>
+            </div>
+            
+            <div class="topic_purpose">
+                <div class="topic">
+                    <h2 class="middle_title">주제선정</h2>
+                        <ul>
+                            <li><img src="IMG/topic01.png" alt=""><h3>하루도 커피를 <br>거르지 못하는 습관</h3></li>
+                            <li><img src="IMG/topic02.png" alt=""><h3>디저트를 항상 가까이에 <br>두고싶은 마음</h3></li>
+                            <li><img src="IMG/topic03.png" alt=""><h3>힐링할 때는 <br>까페부터 찾는 습관</h3></li>
+                        
+                        </ul>
+                        <h2 class="topich1"><span> &sstarf;&sstarf;&sstarf;</span>"누구나 힐링이 가능한 커피&ensp;&amp; 디저트 페스티발"</h2>
+                </div>
+                
+                
+                
+
+                <div class="purpose">
+                   <h2 class="middle_title">목&emsp;적</h2>
+                    <ul>
+                            <li><img src="IMG/purpose01.png" alt=""><h3>2% 부족한 일회성의 <br>기존 사이트 탈피</h3></li>
+                            <li><img src="IMG/purpose02.png" alt=""><h3>A부터 Z까지 "풀메뉴"로 <br>찾을 수 있는 사이트</h3></li>
+                            <li><img src="IMG/purpose03.png" alt=""><h3>기존의 가벼운 색감에서 <br>탈피하여"모던-고급화"  구축</h3></li>
+                        
+                        </ul>
+                        <h2 class="purposeh1"><span> &sstarf;&sstarf;&sstarf;</span>"유지보수 가능한 연회성 페스티발 사이트 구축"</h2>
+                </div>
+            </div>
+        
+       </div> <!--wrap 닫힘-->
+    </div> <!--섹션4 닫힘-->
+    
+    
+    
+    
+    
+    
+<!--섹션02 로고소개 및 주조색-->
+    <div class="section" id="section2">
+       <div class="wrap">
+          <div class="main_title">
+                <h1>02. Logo & Main color</h1>
+            </div>
+            
+            
+            
+                   <div class="widelogo">
+                <img src="IMG/logo200-25-2.png" alt="" class="logoimg1">
+                <img src="IMG/logo100-50-2.png" alt="" class="logoimg2">
+	            </div>
+	       <div class="cacacoco">
+	           <h1><span class="ca">CA</span>KE<br><span class="ca">CA</span>KE</h1> <h1>+</h1> <h1><span class="ca">CO</span>FFEE<br><span class="ca">CO</span>FFEE</h1>
+	       </div>
+           <h1 class="cfixed"> "CACACOCO 탄생"</h1>
+           <div class="color">
+            <ul>
+                <li class="color1">#b99b64</li>
+                <li class="color2">#152032</li>
+                <li class="color3">#744c28</li>
+            </ul>
+            
+        </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <!--섹션03 제작 아이템 리스트-->
+    <div class="section" id="section3">
+        <div class="wrap">
+         <div class="main_title">
+                <h1>03. Production list</h1>
+            </div>
+          <ul class="bg_list">
+              <li class="bg_poster"><a href="#section4">Poster</a></li>
+              <li class="bg_banner"><a href="#section4">Banner</a></li>
+              <li class="bg_leaflet"><a href="#section5">Leaflet</a></li>
+              <li class="bg_ticket"><a href="#section6">Ticket, etc.,</a></li>
+              <li class="bg_website"><a href="#section7">Website</a></li>
+              <li class="bg_goods"><a href="#section8">Goods</a></li>
+          </ul>
+          
+            
+       </div> <!--wrap 닫힘-->
+    </div>      
+    
+  
+                        
+                                
+<!--섹션04 (제작 아이템1_포스터 및 배너)-->
+    <div class="section" id="section4">
+        <div class="wrapper">
+           <div class="main_title">
+                <h1>Item<sup>01</sup>_&ensp;<span>Poster <sup>&</sup> Banner</span></h1>
+            </div>
+            <div class="line"></div>
+            
+            <div class="poster_banner">
+            <div class="poster">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/poster01.png" width="500" height="700">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/poster02.png" width="500" height="700">
+                  </div>
+                </div>
+            </div>
+            
+            <div class="banner">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/stand_banner01-01.png" width="307" height="700">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/stand_banner01-02.png" width="307" height="700">
+                  </div>
+                </div>
+            </div>
+            </div>
+
+       </div> <!--wrap 닫힘-->
+    </div>      
+      
+      
+      
+<!--섹션05 (제작 아이템2_리플렛 및 스템프렐리)-->
+    <div class="section" id="section5">
+           <div class="wrap">
+           <div class="main_title">
+                <h1>Item<sup>02</sup>_&ensp;<span>Leaflet <sup>&</sup> Stamp rally</span></h1>
+                <div class="line"></div>
+            </div>
+            
+            <div class="leaflet_stamp">
+            <div class="leaflet">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/leaflet-01_front.jpg" width="800" height="600">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/leaflet-01_back.jpg" width="800" height="600">
+                  </div>
+                </div>
+            </div>
+            
+            <div class="stamp">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/stamp_out.jpg" width="595" height="420">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/stamp_in.jpg" width="595" height="420">
+                  </div>
+                </div>
+            </div>
+            </div>
+
+        </div> <!--wrap닫힘-->
+     </div> <!--섹션5 닫힘-->
+     
+     <div class="section" id="section6">
+           <div class="wrap">
+           <div class="main_title">
+                <h1>Item<sup>02</sup>_&ensp;<span>Leaflet <sup>&</sup> Stamp rally</span></h1>
+                <div class="line"></div>
+            </div>
+            
+            <div class="leaflet_stamp">
+            <div class="leaflet">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/leaflet5_back.png" width="1400" height="600">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/leaflet5_front.png" width="1400" height="600">
+                  </div>
+                </div>
+            </div>
+            </div>
+
+        </div> <!--wrap닫힘-->
+     </div> <!--섹션5 닫힘-->
+     
+     
+     
+ <!--섹션06 (제작 아이템3_손목밴드, 티켓, 목걸이 명찰)-->
+    <div class="section" id="section7">
+           <div class="wrap">
+           <div class="main_title">
+                <h1>Item<sup>03</sup>_&ensp;<span>Ticket<sup>&ensp;&&ensp;</sup>Wrist band<sup>&ensp;&&ensp;</sup>Nameplate</span></h1>
+                <div class="line"></div>
+            </div>
+            
+            <div class="ticket_band_strap">
+            <div class="ticket_band">
+            <div class="ticket">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/tiket01.png" width="500" height="200">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/tiket02.png" width="500" height="200">
+                  </div>
+                </div>
+            </div>
+            
+             <div class="band">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/band_3color01.png" width="500" height="200">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/band_3color01.png" width="500" height="200">
+                  </div>
+                </div>
+            </div>
+             </div>
+            
+            <div class="strap">
+            <div class="strap">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/strap01.jpg" width="595" height="420">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/strap02.jpg" width="595" height="420">
+                  </div>
+                </div>
+            </div>
+            </div>
+           
+            </div>
+
+        </div> <!--wrap닫힘-->
+    </div>  <!--섹션    6 wrap닫힘-->
+     
+     
+     
+     
+ <!--섹션07 (제작 아이템4_웹사이트 pc와 mobile)-->
+    <div class="section" id="section8">
+         <div class="wrap">
+           <div class="main_title">
+                <h1>Item<sup>04</sup>_&ensp;<span>Website</span>(Mobile responsive)</h1>
+                <div class="line"></div>
+            </div>
+            
+            <div class="website_pc_website_m">
+            <div class="website_pc">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/website_pc_front.png" width="958" height="632">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/website_pc_back.png" width="958" height="632">
+                  </div>
+                </div>
+            </div>
+            
+            <div class="website_m">
+                <div class="img-comp-container">
+                  <div class="img-comp-img">
+                    <img src="IMG/website_m_front.PNG" width="400" height="632">
+                  </div>
+                  <div class="img-comp-img img-comp-overlay">
+                    <img src="IMG/website_m_back.PNG" width="400" height="632">
+                  </div>
+                </div>
+            </div>
+            </div>
+
+       </div> <!--wrap 닫힘-->
+    </div>  <!--섹션7 wrap닫힘-->
+     
+          
+     
+ <!--섹션08 (제작 아이템5_목업 및 굿즈)-->
+    <div class="section" id="section9">
+        <div class="wrap">
+            <div class="main_title">
+                <h1>Item<sup>05</sup>_&ensp;<span>Mock-up <sup>&</sup> Goods</span></h1>
+                <div class="line"></div>
+            </div>
+            
+            <div class="row">
+            <div class="column">
+                <div class="content">
+                <img src="IMG/goods/eco01.jpg" alt="Mountains" style="width:100%">
+                  <h3>CACACOCO Paper bag</h3>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="content">
+                <img src="IMG/goods/eco02.jpg" alt="Mountains" style="width:100%">
+                  <h3>CACACOCO Paper bag</h3>
+                </div>    
+              </div>
+              
+            
+              <div class="column">
+                <div class="content">
+                  <img src="IMG/goods/mug_01.jpg" alt="머그잔" style="width:100%">
+                  <h3>CACACOCO Mug</h3>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="content">
+                <img src="IMG/goods/mug_02.jpg" alt="머그잔" style="width:100%">
+                  <h3>CACACOCO Mug</h3>
+                </div>
+              </div>
+
+            </div>
+            
+            
+            
+              <div class="row">
+              <div class="column">
+                <div class="content">
+                  <img src="IMG/goods/ecobag.png" alt="에코백" style="width:100%">
+                  <h3>CACACOCO Eco bag</h3>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="content">
+                <img src="IMG/goods/stamp.jpg" alt="에코백" style="width:100%">
+                  <h3>CACACOCO Stamp</h3>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="content">
+                <img src="IMG/goods/draft01.png" alt="Nature" style="width:100%">
+                  <h3>CACACOCO Draft Glass</h3>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="content">
+                <img src="IMG/goods/draft02.png" alt="Mountains" style="width:100%">
+                  <h3>CACACOCO Draft Glass</h3>
+                </div>
+              </div>
+
+            </div>
+            
+            
+        </div>
+    </div>  <!--섹션8 wrap닫힘-->
+     
+                             
+                                                                     
+                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                   
+</div> <!--풀페이지 닫힘-->                                                              
+                      
+       
+	
+
+   
+   <!--퀵메뉴-->
+    <nav id="quick">
+    <ul class="quick">
+       <li>
+            <a href="#section3" id="all">
+                ALL
+            </a>
+        </li>
+        <li>
+            <a href="#section4">
+                <img src="IMG/icon_color-poster02.png" alt="퀵메뉴_상담">
+            </a>
+        </li>
+        <li>
+            <a href="#section5">
+                <img src="IMG/icon_color-leaflet.png" alt="퀵메뉴_예약">
+            </a>
+        </li>
+        <li>
+            <a href="#section7">
+                <img src="IMG/icon_color-ticket.png" alt="퀵메뉴_티켓">
+            </a>
+        </li>
+        <li>
+            <a href="#section8">
+                <img src="IMG/icon_color-website.png" alt="퀵메뉴_웹사이트">
+            </a>
+        </li>
+        <li>
+            <a href="#section9">    
+                <img src="IMG/icon_color-goods.png" alt="퀵메뉴_굿즈">
+            </a>
+        </li>
+        <li>
+            <a href="#section0" id="top">
+                TOP
+            </a>
+        </li>
+    </ul>
+    
+    <div class="qrcode">
+        <a href="http://cu1228hosting.dothome.co.kr/cacacoco/index.html"><img src="IMG/QRCode_cacacoco.png" alt="큐알코드"></a>
+    </div>
+</nav>
+
+<script type="text/javascript" src="JS/fullpage.js"></script>
+<script type="text/javascript" src="JS/js.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        loopTop: false,
+        loopBottom: false 
+    });
+</script>
+
+<script src="JS/slide.js"></script>
+
+<script>
+initComparisons();
+</script>
+<script src="JS/shoese.js"></script>
+
+
+<!--타자기 효과-->
+<script>
+var i = 0;
+var txt = 'Introduce CAFE & DESSERT SHOW "CACACOCO"';
+var speed = 60;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("introduce").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+
+</body>
+</html>

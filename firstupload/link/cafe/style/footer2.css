@@ -1,0 +1,139 @@
+footer{
+    width: 100%;
+    background: #152032;
+    color: #999;
+    padding: 5% 0;
+    height: 240px;
+    margin-top: 50px;
+}
+
+.ftlogo1{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.ftlogo1 img{
+    margin: 0;
+    margin-right: 5px;
+    float: left;
+    display: none;
+}
+
+#footer_menu{
+    width: 80%;
+    margin: 10px auto;
+    color: #888;
+    font-weight: bold;
+}
+
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_menu li{
+    float: left;
+    font-size: 11px;
+}
+
+.ft_text{
+    font-size: 12px;
+    margin: 20px auto;
+}
+
+.ft_text li{
+    margin: 3px auto;
+}
+
+.ft_sns{
+    width: 21%;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.ft_sns li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.ft_sns li:last-child{
+    margin: 0;
+}
+
+.ft_sns li img{
+    width: 100%;
+}
+.clearfix{
+      clear: both;
+    }
+    
+
+
+/*--------------------------- pc용 시작--------------------------- */
+
+@media all and (min-width:1132px){
+footer{
+        width: 100%;
+        padding: 2% 10%;
+        height: 240px;
+        margin-top: 50px;
+    }
+    
+    .ftlogo1{
+        width: 17%;
+        margin-left: 6.5%;
+        margin-right: 6.5%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        float: left;
+    }
+    
+    .ftlogo2{
+        float: left;
+    }
+    
+   .ftlogo1 img{
+    margin: 0;
+    margin-right: 5px;
+    float: left;
+    display: inline;
+}
+    
+    .ftlogo1 h2{
+        line-height: 2.5;
+    }
+    
+    #footer_menu{
+        float: left;
+        width: 40%;
+        text-align: center;
+    }
+    
+     #footer_menu li{
+         font-size: 12px;
+    }
+    
+    .ft_text{
+        text-align: left;
+        margin: 0;
+        width: 60%;
+        float: left;
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    
+    .ft_text li{
+        text-align: left;
+    }
+    
+    .ft_sns{
+        display: none;
+    }
+    
+    .clearfix{
+      clear: both;
+    }
+    
+    } /*피씨닫힘*/

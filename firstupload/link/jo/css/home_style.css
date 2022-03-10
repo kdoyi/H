@@ -1,0 +1,357 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    vertical-align: top;
+    border: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/*공지사항*/
+.nt_bar{
+    width: 100%;
+    height: 50px;
+    background: #000;
+}
+
+#notice{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    color: #fff;
+}
+
+.notice{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -50px;
+}
+
+.notice>li{
+    float: top;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+
+/*헤더*/
+.main_img{
+    background-image:url(../images/homeimages/mainimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    z-index: -2;
+}
+
+
+header{
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    background: #fff;
+    position: fixed;
+    z-index: 9999;
+}
+
+/*탑메뉴*/
+.logo{
+    width: 10%;
+    height: 80px;
+    padding: 10px 0 10px 20px;
+    float: left;
+    text-align: center;
+}
+
+.logo img{
+    width: 90%;
+}
+
+#menu{
+    width: 88%;
+    height: 100px;
+    color: #000;
+    float: left;
+}
+
+.menu{
+    float: right;
+    width: 90%;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.menu>li{
+    float: left;
+    width: 25%;
+    height: 30px;
+    line-height: 2;
+}
+
+.menu>li>a{
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu>li:hover{
+    border-bottom: 3px solid #000;
+}
+
+#sub-menu{
+    position: absolute;
+    width: 100%;
+    height: 330px;
+    background: #fff;
+    color: #000;
+    top: 150px;
+    z-index: 9999;
+    padding-left: 20%;
+    display: none;
+}
+
+.sub-menu{
+    float: left;
+    width: 19.8%;
+    text-align: center;
+}
+
+.sub-menu li{ 
+    border-bottom: 3px solid #fff;
+    box-sizing: border-box;
+}
+
+.sub-menu li a{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.sub-menu li:hover{
+    border-bottom: 3px solid #000;
+}
+
+
+/*메인슬라이드박스*/
+.white_box{
+    float: right;
+    width: 400px;
+    height: 650px;
+    background-color: rgba(255,255,255,0.4);
+    text-align: left;
+    padding: 8% 2%;
+    opacity: 0;
+    margin-top: 150px;
+    box-sizing: border-box;
+}
+
+.white_box_span{
+    font-size: 13px;
+    font-family: 'YDIYGO310';
+    letter-spacing: 5px
+}
+
+.white_box_title{
+    font-size: 35px;
+    font-family: 'YDIYGO320';
+    letter-spacing: 1px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.white_box_list{
+    padding-top:30px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+/*카테고리*/
+.contents1, .contents2{
+    width: 1200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+
+.contents2{width: 800px;}
+
+.candle, .diffusers, .scent_to_go, .linen, .room{
+    width: 300px;
+    height: 500px;
+}
+
+.con_box{
+    width: 120px; height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.con_box:hover{background-color: #000; color: #fff;}
+
+.con_title{
+    font-size: 20px;
+    font-family: 'YDIYGO320';
+    margin-bottom: 30px;
+}
+
+.con_text{
+    width: 100%;
+    height: 200px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555
+}
+
+
+.candle img{
+    height: 150px;
+}
+
+.diffusers img{
+    height: 150px;
+}
+
+.linen img{
+    height: 150px;
+}
+
+.room img{
+    height: 150px;
+}
+
+.scent_to_go img{
+    height: 150px;
+}
+
+.border{
+    height: 450px;
+    background-color: #ccc;
+    width: 0.25px;
+    margin-top: 15px;
+}
+
+
+
+/*푸터*/
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: #666;
+    font-size: 15px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.footer_logo{
+    margin: 100px;
+    position: absolute;
+}
+
+.footer li{
+    float: left;
+    margin-right: 20px;
+}
+
+.info li a:hover{
+    color: #fff
+}
+
+.footer_info{
+    position: absolute;
+    margin: 100px 400px;
+}
+
+.footer>p{
+    position: absolute;
+    margin: 150px 400px;
+}
+
+
+.footer_sns>p{
+    margin-left: 105px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.footer_sns .social_icons{
+    position: absolute;
+    right: 100px; top: 130px;
+}
+
+.social_icon_list li{
+    float: left;
+    text-indent: -9999px;
+    margin-right: 5px;
+}
+
+.social_icon_list li a{
+    display: block;
+    width: 42px; height: 42px;
+    background-image: url(../images/subimages/icons.png);
+    background-position: left top;
+}
+
+.social_icon_list li:nth-child(2) a{
+    background-position-x: -54px;}
+.social_icon_list li:nth-child(3) a{
+    background-position-x: -108px;}
+.social_icon_list li:nth-child(4) a{
+    background-position-x: -162px;}
+.social_icon_list li:nth-child(5) a{
+    background-position-x: -217px;}
+
+.social_icon_list li:hover a{
+    background-position-y: 42px;}
+
+.top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    z-index: 999;
+    background: #534741;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-weight: bold;
+}
